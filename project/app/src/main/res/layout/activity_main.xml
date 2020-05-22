@@ -17,7 +17,8 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/scripture_label"
@@ -46,7 +47,8 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scripture_chapter" />
+        app:layout_constraintTop_toBottomOf="@+id/scripture_chapter"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/scripture_chapter"
@@ -59,7 +61,8 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scripture_book" />
+        app:layout_constraintTop_toBottomOf="@+id/scripture_book"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/submit_scripture"
