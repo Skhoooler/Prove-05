@@ -23,9 +23,10 @@ public class MainActivity extends AppCompatActivity {
         EditText getChapter = (EditText) findViewById(R.id.scripture_chapter);
         EditText getVerse   = (EditText) findViewById(R.id.scripture_verse);
 
-        String scripture = getBook.getText().toString()    + " " +
-                           getChapter.getText().toString() + ":" +
-                           getVerse.getText().toString();
+        //String scripture = getBook.getText().toString()    + " " +
+                           //getChapter.getText().toString() + ":" +
+                           //getVerse.getText().toString();
+
 
         startActivity(displayScripture);
     }
